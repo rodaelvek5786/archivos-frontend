@@ -30,5 +30,5 @@ body {
     color: #000000;
     background: brown;
     text-transform: uppercase;
-    border-bottom: black;
+    border-bottom: 3px solid black;
 }
