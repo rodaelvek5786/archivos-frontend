@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header{
+    height: 100px;
+    padding: 0 20px;
+    color: rgb(0, 0, 0);
+  }
+  .logo{
+    padding-top: 2%;
+    float: left;
+    line-height: 100px;
+    width: 12%;
+  }
+  
+  .menu{
+    float: right;
+  }
+  .menu a{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.4s;
+    line-height: 100px;
+    font-weight: 600;
+    letter-spacing: 4px;
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: rgb(110, 237, 253);
+  }
+  
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+body{
+    background-image: url("../img/fondo1.png");
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+/*.logo{
+    width: 110%;
+    padding-left: 15%;
+}*/
+nav{
+    margin-top: 1%;
+}
+.margen{
+    margin-left: 0.5%;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 110%;
+    transition: color .5s;
+    
+}
+nav ul li a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
+    color: rgb(110, 237, 253);
+    text-decoration: none;
+}
+.show-menu-btn, .hide-menu-btn{
+    transition: 0.5s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.show-menu-btn{
+    float: right;
+}
+.show-menu-btn i{
+    line-height: 30px;
+}
+#chk{
+   position: absolute;
+   visibility: hidden; 
+   z-index: -1111;
+}
+.hero .container{
+    margin-left: 2%;
+}
+.hero{
+    text-transform: uppercase;
+    margin-top: 17%;
+    
+    
+}
+.hero h1{
+    font-size: 500%;
+    font-weight: 800;
+}
+.hero h2{
+    font-size: 270%;
+    font-weight: 800;
+}
+.hero h5{
+    font-size: 150%;
+    font-weight: 800;
+}
+.boton{
+    padding: 3% 5%;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 95%;
+    letter-spacing: 3px;
+    transition: background-color .6s;
+    text-transform: uppercase;
+}
+.boton:hover{
+    color: #000;
+    background-color:rgb(110, 237, 253);
+    text-decoration: none;
+
+}
+.galeria
+{
+    margin-top: 22%;
+}
+.galeria h2
+{
+    font-size: 45px;
+    color: #969696;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -4px;
+}
+.galeria h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.galeria p{
+    margin-top: 7%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.seccion-media
+{
+    background:linear-gradient(rgba(2,2,2,.1),rgba(0,0,0,.5)),url("../img/fondo2.png");
+    background-size: cover;
+    height: 4%;
+    padding: 4% 0;
+}
+.seccion-media h1{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.seccion-media p{
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+}
+.seccion-baja
+{
+    padding: 4%;
+}
+.seccion-baja .texto
+{
+    padding-top: 7%;
+
+}
+.seccion-baja h1{
+    font-size: 350%;
+    font-weight: 800;
+}
+.fondo-footer
+{
+    background-color: #e9e9e9;
+    margin: 7% 2% 3% 2%;
+}
+.footer{
+    
+    padding: 4% 3%;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 90%;
+    transition: color .5s;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color:rgb(110, 237, 253) ;
+}
+.footer-informacion
+{
+    padding: 0 5% 4% 5%;
+}
+
+footer h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 185%;
+}
+footer h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 120%;
+}
+.derechos{
+    padding-top: 8%;
+    padding-left: 10%;
+    color: #494949;
+    font-weight: 500;
+}
+.redes a{
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    width: 15%;
+    padding: 3% 3%;
+    text-align: center;
+    margin: 14% 5% 0 0;
+    font-size: 130%;
+    transition: background-color .6s;
+}
+.redes a:hover{
+    color: #000;
+    background-color:rgb(110, 237, 253);
+}
+.redes div{
+    justify-content: end;
+}
+.negro
+{
+    background-color: #000;
+}
+.carousel {
+    box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20rem auto 10rem auto;
+    position: relative;
+    width: 100px;
+    left: -40%;
+  }
+  
+  .carousel_images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.25s;
+    transition: -webkit-transform 0.25s;
+    transition: transform 0.25s;
+    transition: transform 0.25s, -webkit-transform 0.25s;
+  }
+  
+  .carousel_images img {
+    border-radius: 5px;
+    margin-right: 45px;
+    -webkit-box-shadow: 5px 5px 40px #777777;
+            box-shadow: 5px 5px 40px #777777;
+  }
+  
+  .carousel_button {
+    background: rgba(37, 37, 37, 0);
+    border: 0;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+    font-size: 4rem;
+    font-weight: bold;
+    height: 6rem;
+    opacity: 0.25;
+    position: absolute;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    width: 6rem;
+    z-index: 1;
+  }
+  
+  .carousel_button.previous {
+    left: -480%;
+    top: 80%;
+  }
+  
+  .carousel_button.next {
+    right: 300%;
+    top: 80%;
+  }
+  
+  .carousel_button:hover {
+    opacity: 0.5;
+  }
+
+  /* Diseño responsivo de la pagina hiking*/
+  @media (max-width: 1280px){
+    
+    .header{
+        height: 100px;
+        padding: 0 20px;
+        color: rgb(0, 0, 0);
+      }
+      .logo{
+        padding-top: 2%;
+        float: left;
+        line-height: 100px;
+        width: 20%;
+      }
+      
+      .menu{
+        float: right;
+      }
+      .menu a{
+        padding: 0 10px;
+        letter-spacing: 4px;
+      }
+    body{
+        background-image: url("../img/fondo1.png") ;
+        background-position:2% 8%;
+    }
+    .hero .container{
+        margin-left: 1%;
+    }
+    .hero{
+        text-transform: uppercase;
+        margin-top: 8%;
+        
+        
+    }
+    .hero h1{
+        font-size: 400%;
+        font-weight: 800;
+    }
+    .hero h2{
+        font-size: 220%;
+        font-weight: 800;
+    }
+    .hero h5{
+        font-size: 120%;
+        font-weight: 800;
+    }
+    .boton{
+        padding: 3% 3%;
+        font-size: 65%;
+    }
+    .galeria h2
+    {
+        font-size: 35px;
+    }
+    .galeria h3{
+        font-size: 40px;
+    }
+    .galeria p{
+        margin-top: 6%;
+        font-size: 15px;
+    }
+    .carousel {
+        margin: 10rem 0 10rem 17rem;
+        width: 300px;
+        height: 50%;
+    }
+    .carousel_images img {
+        width: 60%;
+      }
+    .carousel_button.previous {
+        left: -160%;
+        top: 80%;
+      }
+      
+      .carousel_button.next {
+        right: 170%;
+        top: 80%;
+      }
+      .seccion-baja
+    {
+        padding: 3%;
+    }
+    .seccion-baja .texto
+    {
+        padding-top: 7%;
+        padding-left: 0;
+
+    }
+    .seccion-baja img{
+        width: 90%;
+        padding: 4% 0 2% 0;
+    }
+    .seccion-baja .texto h1{
+        font-size: 260%;
+        font-weight: 800;
+    }
+    .fondo-footer
+    {
+        margin: 7% 1% 2% 1%;
+    }
+    .footer{
+        
+        padding: 4% 1% 4% 4%;
+    }
+    footer ul li a{
+        font-size: 80%;
+    }
+
+    footer h1{
+        font-size: 190%;
+    }
+    footer h2{
+        font-size: 130%;
+    }
+    .derechos{
+        padding-top: 8%;
+        padding-left: 8%;
+    }
+    .redes a{
+        width: 18%;
+    }
+    .redes div{
+        justify-content: end;
+    }
+    }
+    @media (max-width: 361px){
+        .logo{
+            padding-top: 2%;
+            float: left;
+            line-height: 100px;
+            width: 20%;
+          }
+        .show-menu-btn,.hide-menu-btn{
+            display: block;
+          }
+          .show-menu-btn{
+              float: none;
+              padding-left: 98% ;
+          }
+          .menu{
+            position: fixed;
+            width: 100%;
+            height: 110vh;
+            background: rgb(159, 228, 255);
+            right: -100%;
+            top: 0;
+            text-align: center;
+            padding: 20px 0;
+            line-height: normal;
+            transition: 0.7s;
+            z-index: 2;
+          }
+          .menu a{
+            display: block;
+            padding: 5px;
+            z-index: 2;
+          }
+          .hide-menu-btn{
+            position: absolute;
+            top: 40px;
+            right: 20px;
+          }
+          #chk:checked ~ .menu{
+            right: 0;
+          }
+        .margen{
+            margin-left: 0.00001%;
+        }
+        body{
+            background-image: url("../img/fondo1.png") ;
+            background-size: 105%;
+        }
+        .hero .container{
+            margin-left: -7%;
+            z-index: 1;
+        }
+        .hero{
+            text-transform: uppercase;
+            margin-top: 0.00001%; 
+        }
+        .hero h1{
+            font-size: 160%;
+            font-weight: 800;
+        }
+        .hero h2{
+            font-size: 100%;
+            font-weight: 800;
+        }
+        .hero h5{
+            font-size: 50%;
+            font-weight: 800;
+        }
+        .boton{
+            padding: 3% 3%;
+            font-size: 12px;
+        }
+        .galeria h2
+        {
+            font-size: 34px;
+        }
+        .galeria h3{
+            font-size: 27px;
+        }
+        .galeria p{
+            margin-top: 2%;
+            font-size: 18px;
+            
+        }
+        .carousel {
+            margin: 5rem 0 7rem 17rem;
+            width: 15%;
+            height: 10%;
+            left: -90%;
+        }
+        .carousel_images img {
+            width: 200%;
+            margin-right: 10px;
+            
+          }
+          .carousel_button {
+            background: rgba(37, 37, 37, 0);
+            border: 0;
+            border-radius: 50%;
+            color: #000;
+            cursor: pointer;
+            font-size: 2.5rem;
+            font-weight: bold;
+            height: 4rem;
+            opacity: 0.25;
+            position: absolute;
+            -webkit-transition: opacity 0.25s;
+            transition: opacity 0.25s;
+            width: 4rem;
+            z-index: 1;
+          }
+        .carousel_button.previous {
+            left: 40px;
+            top: 350%;
+          }
+          
+        .carousel_button.next {
+            right: 10px;
+            top: 350%;
+            
+          }
+          .seccion-media{
+            width: 100%;
+          }
+          .seccion-media h1{
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 24px;
+        }
+        .seccion-media p{
+            color: #fff;
+            font-weight: 100;
+            font-size: 14px;
+            
+        }
+          .seccion-baja
+        {
+            padding: 1%;
+        }
+        .seccion-baja .texto
+        {
+            padding: 4%;
+            
+        }
+        .seccion-baja .texto p{
+            padding-top: 1%;
+            font-size: 14px;
+            
+        }
+        .seccion-baja img{
+            width: 100%;
+            padding: 10% 0 3% 4%;
+        }
+        .seccion-baja .texto h1{
+            font-size: 140%;
+            font-weight: 800;
+        }
+        .fondo-footer
+        {
+            
+            margin: 2% 0.1% 2% 2%;
+        }
+        .footer{
+            
+            padding: 4% 0 3% 3%;
+        }
+        .footer img.w-50{
+            width: 20% !important;
+        }
+        .footer li.pr-3{
+            padding-right:3px !important;
+        }
+        footer ul li a{
+            font-size: 5px;
+        }
+    
+        footer h1{
+            font-size: 130%;
+            padding-left: 30%;
+        }
+        footer h2{
+            font-size: 130%;
+            padding-left: 30%;
+        }
+        .derechos{
+            padding-top: 6%;
+            padding-left: 2%;
+            font-size: 10px;
+        }
+        .col-12.col-md-6.text-center a.pl-5{
+            padding-left: 2% !important;
+        }
+        .redes a{
+            width: 15%;
+            font-size: 15px;
+        }
+        .redes div{
+            justify-content: center;
+        }
+    }
